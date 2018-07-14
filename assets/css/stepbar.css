@@ -1,0 +1,45 @@
+CSS
+
+/* StepBar */
+  
+  .line{
+      border-bottom: 1px solid black;
+      padding-bottom: 20px;
+      width: 100%;
+      left: 15px;
+      position: relative;
+  }
+  .stepText1{
+    text-align: left;
+    left: -15px;
+  }
+  .stepText2{ text-align: right; right:-15px; }
+  .stepText3{
+    text-align: right;
+    right: -15px;
+  }
+  .step{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 100px;
+    margin-top: 30px;
+    transition: 0.4s;
+  }
+  .step1{
+    margin-top: -10px;
+    float: left;
+  }
+  .step2{
+    margin: 0 auto;
+    margin-top: -10px;
+    float:right;
+  }
+  .step3{
+    float: right;
+    margin-top: -10px;
+  }
+  .active{
+    background: black;
+  }
