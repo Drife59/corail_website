@@ -711,7 +711,7 @@
 }
 
 .fullwidth_field{
-	width: 80%;
+	width: 80.5%;
 }
 
 .halfwidth_field{
@@ -720,6 +720,14 @@
 
 .thirdwidth_field{
 	width: 25.5%;
+}
+
+.narrowwidth_field{
+	width: 15.1%;
+}
+
+.largewidth_field{
+	width: 63.5%;
 }
 
 /* general form */
