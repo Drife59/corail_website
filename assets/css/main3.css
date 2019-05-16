@@ -702,6 +702,12 @@
 
 /* Form */
 
+/* onbaording create profil from */ 
+#form_onboarding{
+	padding-bottom: 0px;
+	padding-top: 15px;
+}
+
 /* Form field */
 .corail_field_profil{
 	background-color: #ffffff;
