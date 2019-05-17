@@ -706,6 +706,7 @@
 #form_onboarding{
 	padding-bottom: 0px;
 	padding-top: 15px;
+	width: 950px;
 }
 
 /* Form field */
@@ -721,17 +722,24 @@
 }
 
 .halfwidth_field{
-	width: 39.2%;
+	width: 39.4%;
 }
 
 .thirdwidth_field{
-	width: 25.5%;
+	width: 25.7%;
 }
 
+/* The three design below goes together */
 .narrowwidth_field{
-	width: 15.1%;
+	width: 15.2%;
 }
 
+/* Add two of these to complete narrowwidth */
+.mediumwidth_field{
+	width: 31%;
+}
+
+/* Add one of these to complete narrowwidth */
 .largewidth_field{
 	width: 63.5%;
 }
@@ -1557,7 +1565,7 @@
 		}
 
 	#onboarding{
-		margin: 1em;
+		margin: 0.7em;
 	}
 
 /* Spotlight */
